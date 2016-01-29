@@ -58,6 +58,8 @@ Create `./src/js/HelloText.js`
 
 ## Testing
 
+https://www.codementor.io/reactjs/tutorial/test-reactjs-components-karma-webpack
+
 Install packages:
 
 * karma — the actual test runner
