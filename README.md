@@ -55,3 +55,20 @@ Create `./src/js/entry.js`
 Create `./src/js/HelloBox.js`
 
 Create `./src/js/HelloText.js`
+
+## Testing
+
+Install packages:
+
+* karma — the actual test runner
+* karma-cli — the cli for karma
+* karma-mocha — for using the mocha test framework with karma
+* karma-webpack — for using webpack to actually preprocess sources for karma
+* karma-sourcemap-loader — for loading up sourcemaps into karma
+* karma-chrome-launcher — for launching chrome
+* expect — Michael Jackson’s (not to be confused with the famous singer/dancer) amazingly nice assertion library
+* mocha
+
+Create `karma.conf.js`
+
+Create `tests.webpack.js`

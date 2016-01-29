@@ -4,10 +4,10 @@
   "description": "Initial setup for a React project using Webpack.",
   "main": "index.js",
   "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "webpack-server": "webpack-dev-server --hot --progress --colors",
-      "web-server": "http-server -p 3000 .",
-      "start": "npm run webpack-server & npm run web-server"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack-server": "webpack-dev-server --hot --progress --colors",
+    "web-server": "http-server -p 3000 .",
+    "start": "npm run webpack-server & npm run web-server"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,8 @@
   },
   "homepage": "https://github.com/cintiamh/ReactWebpack#readme",
   "dependencies": {
-    "react": "^0.14.7"
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
   },
   "devDependencies": {
     "autoprefixer-loader": "^3.2.0",
@@ -30,9 +31,17 @@
     "babel-preset-react": "^6.3.13",
     "babel-preset-stage-0": "^6.3.13",
     "css-loader": "^0.23.1",
+    "expect": "^1.13.4",
     "file-loader": "^0.8.5",
     "http-server": "^0.8.5",
     "img-loader": "^1.2.2",
+    "karma": "^0.13.19",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-cli": "^0.1.2",
+    "karma-mocha": "^0.2.1",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webpack": "^1.7.0",
+    "mocha": "^2.4.5",
     "node-sass": "^3.4.2",
     "postcss-loader": "^0.8.0",
     "react-hot-loader": "^1.3.0",
